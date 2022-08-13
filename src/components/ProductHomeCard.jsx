@@ -2,6 +2,7 @@ import '@styles/productHomeCard.sass'
 import React from 'react';
 import useGetImage from '@hooks/useGetImage';
 import QuantitySelector from './QuantitySelector';
+import AddToCartBtn from './AddToCartBtn';
 
 const formatter = new Intl.NumberFormat('en-US', {
     style: 'currency',
@@ -26,9 +27,7 @@ const ProductHomeCard = ({ product }) => {
                 </span>
                 <div className="product-actions">
                     <QuantitySelector></QuantitySelector>
-                    <button className='a2c-btn' >
-                        Add to cart
-                    </button>
+                    <AddToCartBtn></AddToCartBtn>
                 </div>
             </section>
         </div>
