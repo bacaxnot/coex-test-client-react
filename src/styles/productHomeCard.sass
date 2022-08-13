@@ -1,0 +1,22 @@
+@import 'vars'
+
+.product-home-card
+    display: grid
+    width: max-content
+    grid-template-columns: 100px 300px
+    border: solid 1px black
+    .product-info
+        display: flex
+        flex-direction: column
+        padding: 10px 20px 10px 0
+        .product-title
+            color: $primary-font-color
+            font-weight: bold
+            font-size: 2rem
+        .product-price
+            color: $primary-green
+            font-weight: bold
+            font-size: 2rem
+        .product-actions
+            display: flex
+            justify-content: space-between

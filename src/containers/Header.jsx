@@ -21,7 +21,6 @@ const Header = () => {
                     <figure className="icon user-btn">
                         <img src={userIcon} alt="user-btn" />
                     </figure>
-
                 </div>
             </nav>
         </header>
