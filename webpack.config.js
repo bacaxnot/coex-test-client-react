@@ -41,7 +41,7 @@ module.exports = {
 				]
 			},
 			{
-				test: /\.(css|scss)$/,
+				test: /\.(css|sass)$/,
 				use: [
 					"style-loader",
 					"css-loader",
@@ -49,7 +49,7 @@ module.exports = {
 				],
 			},
 			{
-				test: /\.(png|svg|jpg|gif)$/,
+				test: /\.(png|svg|jpg|gif|jpeg)$/,
 				type: 'asset',
 			}
 		]
