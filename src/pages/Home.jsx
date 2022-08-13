@@ -1,3 +1,4 @@
+import '@styles/home.sass'
 import React from 'react';
 import useGetProducts from '@hooks/useGetProducts'
 import Carousel from '@components/Carousel'
